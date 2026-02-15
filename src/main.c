@@ -9,7 +9,7 @@ int main() {
         scanf("%lf", &b);
         printf("Введите c: ");
         scanf("%lf", &c);
-	double ma, mb, mc;
+	double ma, mb, mc;//комментарий 2
 	if (a + b > c && a + c > b && b + c > a) {
 		ma = 0.5 * sqrt(2 * b * b + 2 * c * c - a * a);
 		mb = 0.5 * sqrt(2 * a * a + 2 * c * c - b * b);
