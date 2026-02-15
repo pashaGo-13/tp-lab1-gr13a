@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//комментарий 1
 int main() {
 	double a, b, c;
 	printf("Введите a: ");
